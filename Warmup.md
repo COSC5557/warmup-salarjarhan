@@ -90,9 +90,7 @@ ggplot(data = test_data, aes(x = quality, y = prediction_test)) +
   ggtitle(paste("Actual vs. Predicted Wine Quality (RMSE =", round(rmse_test, 2), ")"))
 ```
 
-    ## `geom_smooth()` using formula = 'y ~ x'
-
-![](Warmup_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/COSC5557/warmup-salarjarhan/blob/main/000012.png)<!-- -->
 
 ## 10-fold cross-validation
 
