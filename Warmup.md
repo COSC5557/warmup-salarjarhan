@@ -4,10 +4,41 @@ Warmup
 ``` r
 knitr::opts_chunk$set(eval = TRUE, echo = TRUE)
 library(readr)
+```
+
+    ## Warning: package 'readr' was built under R version 4.2.1
+
+``` r
 library(caret)
+```
+
+    ## Warning: package 'caret' was built under R version 4.2.3
+
+    ## Loading required package: ggplot2
+
+    ## Warning: package 'ggplot2' was built under R version 4.2.2
+
+    ## Loading required package: lattice
+
+``` r
 library(ggplot2)
 library(dplyr)
+```
 
+    ## Warning: package 'dplyr' was built under R version 4.2.3
+
+    ## 
+    ## Attaching package: 'dplyr'
+
+    ## The following objects are masked from 'package:stats':
+    ## 
+    ##     filter, lag
+
+    ## The following objects are masked from 'package:base':
+    ## 
+    ##     intersect, setdiff, setequal, union
+
+``` r
 # Load the wine quality data from a CSV file
 wine_data <- read.csv("winequality-red.csv", sep= ";")  
 
