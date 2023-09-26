@@ -2,7 +2,7 @@ Warmup
 ================
 
 ``` r
-knitr::opts_chunk$set(eval = TRUE, echo = TRUE, fig.path='Figs/')
+knitr::opts_chunk$set(eval = TRUE, echo = TRUE, dev="png")
 library(readr)
 ```
 
@@ -92,7 +92,7 @@ ggplot(data = test_data, aes(x = quality, y = prediction_test)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](Figs/unnamed-chunk-2-1.png)<!-- -->
+![](Warmup_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 
 ## 10-fold cross-validation
 
